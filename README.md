@@ -4,23 +4,23 @@ Simple git clone command
 
 ## Usage
 
-* simple clone
+### simple clone
 
 ```bash
-clone kuroko1t/nne
+clone kuroko1t/clone
 ```
 
 stdout
 
 ```bash
 git clone https://github.com/kuroko1t/clone
-Enumerating objects: 121, done.
-Counting objects: 100% (121/121), done.
-Compressing objects: 100% (76/76), done.
-Total 385 (delta 69), reused 72 (delta 40), pack-reused 264
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Compressing objects: 100% (6/6), done.
+Total 7 (delta 0), reused 7 (delta 0), pack-reused
 ```
 
-* clone with directory
+### clone with directory
 
 ```bash
 clone kuroko1t/nne /tmp/foo
